@@ -1,28 +1,25 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description
+You will get in an activity feed for a social app.
 
-Things you may want to cover:
+Assignment
+Add a feature similar to Facebook's "Like" button+counter for each post.
 
-* Ruby version
+Objectives
+Show total like count for each post. 
+Show Like/Unlike link based whether Max liked it or not.
+Implement Like/Unlike link with Ajax 
+Update post like count and the link 'like/unlike'
+Performance is very important!!! minimize the number of database queries 
+Add seed data where each post is randomly liked by between 0 and 10 randomly selected users.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Details
+Use Max as the currently signed in user (Check seeds.rb)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+Run "rake db:reset" to have db populated
+Run your local development server aka 'rails s'
+Visit http://localhost:3000/posts 
+
